@@ -6,7 +6,6 @@
     <title>Bars und so</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/dist/main.css" />
-    <script src="/dist/main.js"></script>
 </head>
 <body>
 
