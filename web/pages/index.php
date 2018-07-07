@@ -13,13 +13,31 @@
     </h2>
 
     <div class="main__search">
-        <form action="search-results.php" method="get">
+        <form action="bar-search.php" method="get" data-form="search" data-result-target="bar">
             <p>
-                Suche nach einer und schau welche Getränke sie hat.
+                Suche nach einer Bar und schau welche Getränke sie hat.
             </p>
-            <input id="bar-search" type="text" placeholder="Gib einen Barnamen ein" name="barname"><br>
+            <input id="bar-search" type="text" placeholder="Gib einen Barnamen ein" name="barName"><br>
             <button type="submit" class="main__submit">Suche</button>
         </form>
+    </div>
+
+    <div class="main-result" data-result="bar">
+        <!-- dynamic content -->
+    </div>
+
+    <div class="main__search">
+        <form action="drink-search.php" method="get" data-form="search" data-result-target="drink">
+            <p>
+                Suche nach einem Getränk und erhalte ihre Getränke und wo du sie findest.
+            </p>
+            <input id="drink-search" type="text" placeholder="Gib einen Drinknamen ein" name="drinkName"><br>
+            <button type="submit" class="main__submit">Suche</button>
+        </form>
+    </div>
+
+    <div class="main-result" data-result="drink">
+        <!-- dynamic content -->
     </div>
     
 </main>
