@@ -19,6 +19,7 @@ if ($conn->connect_error) {
 // sql queries declartions
 $barQuery = "SELECT * from bar WHERE name = '$barName'"; 
 $descriptionQuery = "SELECT bar.*, description.Beschreibung FROM bar, description  WHERE bar.name = '$barName' AND bar.PLZ = '$barPLZ' AND bar.name = description.name AND bar.PLZ = description.PLZ";
+$employeeQuery = "SELECT name, vorname FROM employee WHERE bar = '$barName' AND PLZ = '$barPLZ'";
 
 // start queries
 $result = $conn->query($barQuery);
@@ -48,9 +49,12 @@ echo '</table>';
     echo "no such bar";
 }
 ?>
+
 <h2 class="bar-detail__subline">Beschreibung</h2>
+
 <?php
-// output 
+// BAR DESCRIPTION
+
 $description = $conn->query($descriptionQuery);
 if($description->num_rows > 0) {
     echo '<p class="bar-detail__description">';
@@ -59,6 +63,33 @@ if($description->num_rows > 0) {
 } else {
     echo "no description available";
 }
+?>
+
+<!-- employees -->
+<h2 class="bar-detail__subline">Mitarbeiter</h2>
+
+<?php
+$employees = $conn->query($employeeQuery);
+
+if ($employees->num_rows > 0) {
+
+// output data contact info of bar
+    echo '<table class="bar-detail__table">';
+    echo '<tr>';
+    echo '<th>Name</th>';
+    echo '<th>Vorname</th>';
+    echo '</tr>';
+    while($employee = $employees->fetch_assoc()) {
+        echo '<tr>';
+            echo '<td>', $employee['name'], '</td>';
+            echo '<td>', $employee['vorname'], '</td>';
+        echo '</tr>';
+    }
+    echo '</table>';
+} else {
+    echo "no such bar";
+}
+
 
 $conn->close();
 

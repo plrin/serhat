@@ -400,6 +400,9 @@ body {
 .bar-detail__description {
   text-align: center; }
 
+.bar-detail__table {
+  text-align: center; }
+
 .footer {
   min-height: 100px;
   background-color: black;
