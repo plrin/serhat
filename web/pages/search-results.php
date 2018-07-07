@@ -8,6 +8,9 @@
 
     <?php
     $searchQuery = $_GET["barname"];
+    if(strlen($searchQuery) <= 0) {
+        die("keine Suchergebnisse gefunden");
+    }
     // echo "suchwort: ", $searchQuery, "<br>";
 
     $servername = "localhost";
@@ -21,7 +24,7 @@
     // Check connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
-    } 
+    }
     // echo "Connected successfully<br>";
 
     // TODO search for any bar containing the search keyword
