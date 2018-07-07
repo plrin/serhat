@@ -1,6 +1,6 @@
 <?php
 
-    echo 'i contain the bar details from the db';
+    echo 'this page contains the bar details from the db<br>';
 
     $servername = "localhost";
     $username = "root";

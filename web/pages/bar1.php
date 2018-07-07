@@ -9,7 +9,7 @@
 
     <?php 
     $barQuery = 'SELECT * from serhat'; 
-    include 'includes/bar.php';
+    require 'includes/bar-detail.php';
 ?>
     
 </main>
