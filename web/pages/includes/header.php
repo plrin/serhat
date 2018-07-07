@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bars und so</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/dist/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../dist/main.css" />
 </head>
 <body>
 
 <header class="header">
     <figure class="header__figure">
-        <img src="/dist/images/blur-city.jpg" alt="" class="header__image">
+        <img src="../dist/images/blur-city.jpg" alt="" class="header__image">
     </figure>
     <nav class="nav">
         <ul class="nav__lvl1">
