@@ -5,7 +5,12 @@
 
 <main>
 
-    this is the bar1 page
+    this is the bar1 page<br>
+
+    <?php 
+    $barQuery = 'SELECT * from serhat'; 
+    include 'includes/bar.php';
+?>
     
 </main>
 

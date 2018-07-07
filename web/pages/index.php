@@ -1,6 +1,6 @@
 <?php 
-    $page = 'index';  include
-    'includes/header.php';
+    $page = 'index';
+    include 'includes/header.php';
 ?>
 
 <main>
