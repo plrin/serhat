@@ -5,13 +5,22 @@
 
 <main class="main">
 
-    suchformular
+    <h1 class="main__headline">
+        Bar Featurer
+    </h1>
+    <h2 class="main__subline">
+        Wir featurern Bars und ihre Getränke
+    </h2>
 
-    <form action="search-results.php" method="get">
-        <label for="bar-search">Barsuche</label>
-        <input id="bar-search" type="text" placeholder="such nach einer bar" name="barname">
-        <button type="submit">Suche</button>
-    </form>
+    <div class="main__search">
+        <form action="search-results.php" method="get">
+            <p>
+                Suche nach einer und schau welche Getränke sie hat.
+            </p>
+            <input id="bar-search" type="text" placeholder="Gib einen Barnamen ein" name="barname"><br>
+            <button type="submit" class="main__submit">Suche</button>
+        </form>
+    </div>
     
 </main>
 
