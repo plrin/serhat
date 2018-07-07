@@ -10,7 +10,9 @@
 <body>
 
 <header class="header">
-    <img src="/dist/images/blur-city.jpg" alt="" class="header-image">
+    <figure class="header__figure">
+        <img src="/dist/images/blur-city.jpg" alt="" class="header__image">
+    </figure>
     <nav class="nav">
         <ul class="nav__lvl1">
             <li class="lvl1__li <?php echo ($page == "index" ? "active" : "")?>">
@@ -22,11 +24,23 @@
             <li class="lvl1__li has--sub <?php echo ($page == "index3" ? "active" : "")?>">
                 <a href="#0">bars</a>
                 <ul class="nav__lvl2">
-                    <li class="lvl2__li <?php echo ($page == "bar1" ? "active" : "")?>">
-                        <a href="bar1.php"> sub bar</a>
+                    <li class="lvl2__li <?php echo ($page == "chakra" ? "active" : "")?>">
+                        <a href="chakra.php">Chakra</a>
                     </li>
-                    <li class="lvl2__li <?php echo ($page == "bar2" ? "active" : "")?>">
-                        <a href="bar2.php">sub bar</a>
+                    <li class="lvl2__li <?php echo ($page == "berliner" ? "active" : "")?>">
+                        <a href="berliner-betrueger.php">Berliner Betrüger</a>
+                    </li>
+                    <li class="lvl2__li <?php echo ($page == "skyline" ? "active" : "")?>">
+                        <a href="skyline-bar-20up.php">Skyline Bar 20up</a>
+                    </li>
+                    <li class="lvl2__li <?php echo ($page == "bar-decaio" ? "active" : "")?>">
+                        <a href="bar-dacaio-hamburg.php">Bar DaCaio Hamburg</a>
+                    </li>
+                    <li class="lvl2__li <?php echo ($page == "le-lion" ? "active" : "")?>">
+                        <a href="le-lion-bar-de-paris.php">Le Lion Bar de Paris</a>
+                    </li>
+                    <li class="lvl2__li <?php echo ($page == "tower-bar" ? "active" : "")?>">
+                        <a href="tower-bar.php">Tower Bar</a>
                     </li>
                 </ul>
             </li>
