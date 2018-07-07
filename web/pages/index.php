@@ -5,7 +5,13 @@
 
 <main>
 
-    this is the index page
+    suchformular
+
+    <form action="search-results.php" method="get">
+        <label for="bar-search">Barsuche</label>
+        <input id="bar-search" type="text" placeholder="such nach einer bar" name="barname">
+        <button type="submit">Suche</button>
+    </form>
     
 </main>
 
