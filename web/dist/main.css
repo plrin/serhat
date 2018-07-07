@@ -300,10 +300,20 @@ template {
 figure {
   margin: 0; }
 
+html,
+body {
+  height: 100%; }
+
 body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap; }
+
+.main {
+  flex: 1 0 auto; }
+
+.footer {
+  flex-shrink: 0; }
 
 .header {
   position: relative;
@@ -372,4 +382,26 @@ body {
 
 .lvl2__li:hover > a {
   color: red; }
+
+.bar-detail__headline {
+  text-align: center; }
+
+.bar-detail__subline {
+  text-align: center; }
+
+.bar-detail__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px; }
+
+.bar-detail__description {
+  text-align: center; }
+
+.footer {
+  min-height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center; }
 

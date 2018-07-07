@@ -3,7 +3,7 @@
     include 'includes/header.php';
 ?>
 
-<main>
+<main class="main">
 
     suchformular
 

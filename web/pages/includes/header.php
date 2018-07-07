@@ -18,9 +18,6 @@
             <li class="lvl1__li <?php echo ($page == "index" ? "active" : "")?>">
                 <a href="index.php">home</a>
             </li>
-            <li class="lvl1__li <?php echo ($page == "index2" ? "active" : "")?>">
-                <a href="#0">new york</a>
-            </li>
             <li class="lvl1__li has--sub <?php echo ($page == "index3" ? "active" : "")?>">
                 <a href="#0">bars</a>
                 <ul class="nav__lvl2">

@@ -3,7 +3,7 @@
     'includes/header.php';
 ?>
 
-<main>
+<main class="main">
 
 
     <?php

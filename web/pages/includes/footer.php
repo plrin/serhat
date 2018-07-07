@@ -1,8 +1,6 @@
+<footer class="footer">
 
-
-<footer>
-
-this is the footer
+footer
 
 </footer>
 
