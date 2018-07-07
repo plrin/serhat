@@ -1,6 +1,5 @@
-body {
-    background: red;
-}
+@import "scss/vendor/normalize";
 
+@import "scss/base";
 @import "scss/layout";
 @import "scss/navigation";

@@ -9,17 +9,18 @@
 </head>
 <body>
 
-<header>
+<header class="header">
+    <img src="/dist/images/blur-city.jpg" alt="" class="header-image">
     <nav class="nav">
-        <ul class"nav__lvl1">
+        <ul class="nav__lvl1">
             <li class="lvl1__li <?php echo ($page == "index" ? "active" : "")?>">
-                <a href="0#">home</a>
+                <a href="index.php">home</a>
             </li>
             <li class="lvl1__li <?php echo ($page == "index2" ? "active" : "")?>">
-                <a href="0#">new york</a>
+                <a href="#0">new york</a>
             </li>
-            <li class="lvl1__li <?php echo ($page == "index3" ? "active" : "")?>">
-                <a href="0#">bars</a>
+            <li class="lvl1__li has--sub <?php echo ($page == "index3" ? "active" : "")?>">
+                <a href="#0">bars</a>
                 <ul class="nav__lvl2">
                     <li class="lvl2__li <?php echo ($page == "bar1" ? "active" : "")?>">
                         <a href="bar1.php"> sub bar</a>

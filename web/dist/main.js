@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./web/src/images/blur-city.jpg":
+/*!**************************************!*\
+  !*** ./web/src/images/blur-city.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/blur-city.jpg\";\n\n//# sourceURL=webpack:///./web/src/images/blur-city.jpg?");
+
+/***/ }),
+
 /***/ "./web/src/main.js":
 /*!*************************!*\
   !*** ./web/src/main.js ***!
@@ -94,7 +105,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.scss */ \"./web/src/main.scss\");\n/* harmony import */ var _main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconsole.log('start app');\n\n//# sourceURL=webpack:///./web/src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.scss */ \"./web/src/main.scss\");\n/* harmony import */ var _main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n// images\n__webpack_require__(/*! ./images/blur-city.jpg */ \"./web/src/images/blur-city.jpg\");\n\n\n\nconsole.log('start app');\n\n//# sourceURL=webpack:///./web/src/main.js?");
 
 /***/ }),
 
