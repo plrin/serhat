@@ -1,6 +1,8 @@
 <footer class="footer">
 
-footer
+Stefan Kutscher <br>
+Schanzenstraße 11, 20357 Hamburg <br>
+Kontakt: stefan.kutscher@bars.de <br>
 
 </footer>
 

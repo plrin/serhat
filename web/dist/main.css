@@ -297,8 +297,38 @@ template {
 [hidden] {
   display: none; }
 
+html {
+  font-family: 'Roboto', sans-serif; }
+
 figure {
   margin: 0; }
+
+.body__background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-image: url("/dist/images/background.jpg"); }
+
+.chakra {
+  background-image: url("/dist/images/chakra_cafe.jpg"); }
+
+.berliner {
+  background-image: url("/dist/images/berliner_betrueger.jpg"); }
+
+.skyline {
+  background-image: url("/dist/images/skyline_bar_20up.jpg"); }
+
+.bar-decaio {
+  background-image: url("/dist/images/bar-decaio.jpg"); }
+
+.le-lion {
+  background-image: url("/dist/images/lelionbar.jpg"); }
+
+.tower-bar {
+  background-image: url("/dist/images/tower-bar.jpg"); }
 
 html,
 body {
@@ -319,7 +349,8 @@ body {
 .header {
   position: relative;
   height: 200px;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
 
 .header__figure {
   position: absolute;
@@ -349,11 +380,12 @@ body {
   transition: color .2s; }
   .nav__lvl1 .active a,
   .nav__lvl2 .active a {
-    color: red; }
+    color: #d2d2d2; }
 
 .nav__lvl1 {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  background-color: #00000054; }
   .nav__lvl1 a {
     text-decoration: none;
     color: white; }
@@ -361,13 +393,11 @@ body {
 .lvl1__li {
   position: relative;
   margin: 0 5px;
-  padding: 5px 0;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white; }
+  padding: 5px 0; }
   .lvl1__li.has--sub:hover > ul {
     display: block; }
   .lvl1__li:hover > a {
-    color: red; }
+    color: #d2d2d2; }
 
 .nav__lvl2 {
   display: none;
@@ -382,7 +412,7 @@ body {
     color: black; }
 
 .lvl2__li:hover > a {
-  color: red; }
+  color: #d2d2d2; }
 
 .bar-detail__headline {
   text-align: center; }
@@ -405,14 +435,30 @@ body {
 
 .footer {
   min-height: 100px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  text-align: center; }
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+  padding: 30px 0; }
+
+.main__content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .main__content {
+      width: 50%; } }
 
 .main__headline {
   text-align: center; }

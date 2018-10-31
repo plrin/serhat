@@ -1,5 +1,11 @@
 // images
-require('./images/blur-city.jpg');
+require('./images/background.jpg');
+require('./images/bar-decaio.jpg');
+require('./images/chakra_cafe.jpg');
+require('./images/lelionbar.jpg');
+require('./images/skyline_bar_20up.jpg');
+require('./images/tower-bar.jpg');
+require('./images/berliner_betrueger.jpg');
 
 import './main.scss';
 

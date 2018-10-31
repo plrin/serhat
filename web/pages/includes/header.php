@@ -3,16 +3,20 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bars und so</title>
+    <title>Bars</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../dist/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
-
+<div class="body__background <?php echo $page?>">
+</div>
 <header class="header">
+<!--
     <figure class="header__figure">
         <img src="../dist/images/blur-city.jpg" alt="" class="header__image">
     </figure>
+-->
     <nav class="nav">
         <ul class="nav__lvl1">
             <li class="lvl1__li <?php echo ($page == "index" ? "active" : "")?>">

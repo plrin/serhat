@@ -4,13 +4,20 @@
 ?>
 
 <main class="main">
-
-    <h1 class="main__headline">
-        Bar Featurer
-    </h1>
-    <h2 class="main__subline">
-        Wir featurern Bars und ihre Getränke
-    </h2>
+    <div class="main__content">
+        <h1 class="main__headline">
+            Hamburg Bar Guide
+        </h1>
+        <p>
+            Hamburg - die schönste Stadt Deutschlands. Das wissen nicht nur Hamburger, sondern auch Touristen, die am Ende Ihrer Tour unsere schöne Stadt verlassen. Vom Hamburger Hafen, der Speicherstadt und den Fischmarkt, über den Rathausplatz, der Alsterpromenade und das Gängeviertel bis hin zur berühmt berüchtigten Reeperbahn - das „Tor zu Welt“ hat Sehenswürdigkeiten bis zum abwinken. Doch auch an Bars und Restaurant hat die Stadt einiges zu bieten. 
+        </p>
+        <p>
+            Ich zeige euch in meinem Guide meine Top Favoriten und Geheimtipps, damit ihr es bei eurer nächsten Bar-Tour etwas einfacher habt.
+        </p>
+        <p>
+            Viel Spaß
+        </p>
+    </div>
 
     <div class="main__search">
         <form action="bar-search.php" method="get" data-form="search" data-result-target="bar">

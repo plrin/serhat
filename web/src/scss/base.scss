@@ -1,3 +1,36 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 figure {
     margin: 0;
+}
+
+.body__background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-image: url("/dist/images/background.jpg");
+}
+
+.chakra {
+    background-image: url("/dist/images/chakra_cafe.jpg");
+}
+.berliner {
+    background-image: url("/dist/images/berliner_betrueger.jpg");
+}
+.skyline {
+    background-image: url("/dist/images/skyline_bar_20up.jpg");
+}
+.bar-decaio {
+    background-image: url("/dist/images/bar-decaio.jpg");
+}
+.le-lion {
+    background-image: url("/dist/images/lelionbar.jpg");
+}
+.tower-bar {
+    background-image: url("/dist/images/tower-bar.jpg");
 }
