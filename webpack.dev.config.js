@@ -7,7 +7,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'web/dist'),
         filename: 'main.js',
-        publicPath: "./web/dist"
+        publicPath: ""
     },
     mode: "development",
     watch: true,

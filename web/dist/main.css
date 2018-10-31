@@ -310,25 +310,25 @@ figure {
   left: 0;
   top: 0;
   background-size: cover;
-  background-image: url("/dist/images/background.jpg"); }
+  background-image: url(images/background.jpg); }
 
 .chakra {
-  background-image: url("/dist/images/chakra_cafe.jpg"); }
+  background-image: url(images/chakra_cafe.jpg); }
 
 .berliner {
-  background-image: url("/dist/images/berliner_betrueger.jpg"); }
+  background-image: url(images/berliner_betrueger.jpg); }
 
 .skyline {
-  background-image: url("/dist/images/skyline_bar_20up.jpg"); }
+  background-image: url(images/skyline_bar_20up.jpg); }
 
 .bar-decaio {
-  background-image: url("/dist/images/bar-decaio.jpg"); }
+  background-image: url(images/bar-decaio.jpg); }
 
 .le-lion {
-  background-image: url("/dist/images/lelionbar.jpg"); }
+  background-image: url(images/lelionbar.jpg); }
 
 .tower-bar {
-  background-image: url("/dist/images/tower-bar.jpg"); }
+  background-image: url(images/tower-bar.jpg); }
 
 html,
 body {
